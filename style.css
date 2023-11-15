@@ -1,0 +1,423 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+span, a {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+}
+.header{
+    max-width: 1500px;
+    background-color: #FFFFF7;
+    padding: 100px;
+    border: 1px solid red;
+}
+.sarlavha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.linka{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-size: 18px;
+}
+.alink{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.linkaa{
+    text-decoration: none;
+    margin-left: 30px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    color: white;
+    background-color: #C47344;
+    padding: 7px 20px;
+}
+.spans{
+    padding-bottom: 30px;
+}
+.new,.boshqalink{
+    text-decoration: none;
+    border: 1px solid #C47344;
+    border-radius: 20px;
+    padding: 4px 15px;
+    background-color: #C47344;
+    color: white;
+}
+.the{
+    text-decoration: none;
+    border: 1px solid #F9EDE2;
+    border-radius: 20px;
+    padding: 5px 15px;
+    background-color: #F9EDE2;
+    color: black;
+    margin-left: 20px;
+}
+.birinchi{
+    text-align: center;
+    padding-top:50px ;
+}
+.h12{
+    padding-bottom: 30px;
+    font-size: 55px;
+}
+.p{
+    font-size: 23px;
+    line-height: 1.4;
+    padding-bottom: 30px;
+}
+.ikkinchi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+.linkrasm{
+    text-decoration: none;
+    padding-left: 30px;
+}
+.photo{
+    width: 200px;
+}
+.ikkinchiend{
+    text-align: center;
+}
+.aclass{
+    text-decoration: none;
+    color: #C47344;
+}
+.ikon{
+    border-radius: 50%;
+    align-items: center;
+    border: 1px solid orange;
+    padding: 4px 6px;
+    background-color: #C47344;
+    color: white;
+}
+.tortinchi{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}
+.pic{
+    width: 24%;
+    padding-bottom: 10px;
+}
+.h2{
+    font-weight: bold;
+    font-size: 29px;
+    padding-bottom: 10px;
+}
+.p2{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.adivlink{
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgba(192, 192, 192, 0.594);
+    border-radius: 20px;
+    padding: 5px 19px;
+}
+.adivlink:hover{
+    background-color: #C47344;
+    color: white;
+    border-color: #C47344;
+    transition: 0.2s all linear;
+}
+.adiv{
+    text-align: center;
+}
+.ichi{
+    width: 39%;
+    text-align: center;
+    padding: 30px;
+    background-color: #FFFAF2;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.509);
+}
+.part12{
+    padding: 40px;
+}
+.p01{
+    padding-bottom: 40px;
+}
+.pic2{
+    padding-bottom: 40px;
+}
+.h3{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.divv{
+    border-bottom: 2px solid white;
+    width: 100%;
+    color: white;
+}
+.begin,.ikonka{
+    padding-top: 30px;
+}
+.ikonka{
+    margin-left: 240px;
+}
+.ikona{
+    color: white;
+}
+.part12{
+    background-color: #32686F;
+    width: 30%;
+    color: white;
+    margin: 50px;
+    box-shadow: -20px 10px #2D5E65;
+    border-radius: 20px;
+}
+.link1{
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid rgba(116, 110, 110, 0.947);
+    border-radius: 20px;
+    background-color: #F9EDE2;
+    padding: 4px 10px;
+}
+.link1:hover{
+    color: white;
+    background-color:#C47344 ;
+    border-color: #C47344;
+    transition: 0.2s all linear;
+}
+.link2{
+    text-decoration: none;
+    border: 1.5px solid silver;
+    color: black;
+    border-radius: 20px;
+    padding: 7px 19px;
+    background-color: #F9EDE2;
+}
+.link2:hover{
+    color: white;
+    background-color: #C47344;
+    transition: 0.2s all linear
+}
+.part2{
+    width: 47%;
+}
+.yanaa{
+    padding-bottom: 90px;
+}
+.h4{
+    font-size: 40px;
+}
+.pclas{
+    font-size: 22px;
+    line-height: 1.5;
+    padding-bottom: 30px;
+}
+.part1{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+}
+.h15{
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+.part3{
+    width: 47%;
+}
+.part4{
+    width: 45%;
+}
+.p4{
+    padding-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.6;
+}
+.form{
+    border: 1px solid black;
+    width: 70%;
+    padding: 5px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.217);
+}
+.input{
+    border: none;
+}
+.oltinchi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.spanikon{
+    padding-left: 200px;
+    color: orange;
+}
+.imgbor{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+.h1a{
+    padding-bottom:  22px;
+}
+.text,.text2,.text3{
+    padding-bottom: 20px;
+    line-height: 1.7;
+}
+.text4{
+    padding-bottom: 18px;
+}
+.pic5,.pic6{
+    padding-bottom: 18px;
+}
+.arcarta1{
+    width: 24%;
+    padding: 50px;
+}
+.arcarta2{
+    width: 24%;
+}
+.arcarta3{
+    width: 24%;
+}
+.arcarta4{
+    width: 24%;
+}
+.text4{
+    color: silver;
+}
+.home{
+    text-decoration: none;
+}
+.yettinchi{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.alar{
+    padding-bottom: 20px;
+}
+.h6{
+    padding-top: 20px;
+}
+.ikonkaichi,.ikonkaichi1{
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+}
+.ikonkaichi:hover{
+    color: red;
+}
+.ikonkaichi1:hover{
+    color: blue;
+}
+.sakkizinchi{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 50px;
+}
+
+@media(max-width:1100px){
+    .h1a{
+        width: 100%;
+        text-align: center;    
+    }
+    .header{
+        padding: 30px;
+    }
+}
+@media(max-width:1060px){
+    .part12{
+        width: 100%;
+    }
+    .part2{
+        order: 1;
+    }
+    .linklar{
+        margin-top: 40px;
+    }
+}
+@media(max-width:1010px){
+    .ichi{
+        width: 50%;
+    }
+    .imgbor3{
+        padding-bottom: 10px;
+    }
+}
+@media(max-width:960px){
+    .linklar{
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+@media(max-width:910px){
+    .part3{
+        width: 100%;
+        text-align: center;
+    }
+    .arcarta1{
+        width: 100%;
+    }
+    .text{
+        width: 100%;
+    }
+}
+@media(max-width:710px){
+    .sakkizinchi{
+        padding: 30px;
+    }
+}
+@media(max-width:580px){
+    .ichi{
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .ikonkalar,.imgbor3{
+        width: 100%;
+        text-align: center;
+    }
+    .linka{
+        padding-bottom:20px ;
+    }
+}
+@media(max-width:420px){
+    .arkarta1,.arkarta2{
+        width: 100%;
+    }
+}
+@media(max-width:420px){
+    .part2,.part4{
+        font-size: 20px;
+        width: 100%;
+    }
+    .part2{
+        width: 100%;
+    }
+    .ichi{
+        width: 100%;
+    }
+    .alspan{
+        padding-bottom: 40px;
+    }
+}
+@media(max-width:280px){
+    
+}
